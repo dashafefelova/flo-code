@@ -1,0 +1,1544 @@
+/* laptop */
+@media screen and (max-width: 768px) { 
+    body{
+        width: 100vw;
+        height: 100%;
+        background-image: url("../img/Frame 42 (1).png");
+        background-size: 200%;
+        font-family: 'Nunito', 'Inter';
+        animation: colori 1s steps(1) infinite;
+    }
+
+    .firstblokflo{
+        width: 91vw;
+        height: 32vw;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        top: 6.3vw;
+        left: 1.6%;
+    }
+    
+    .firstflo{
+        width:80vw;
+        margin-left: 5vw;
+        background-image: url("../img/Frame 96.svg");
+        background-size: 200%;
+        background-repeat: repeat-x;
+        animation: colori 2s steps(1) infinite, scale 1.8s steps(10) 0s infinite;
+    }
+
+    .secondflo{
+        width:70vw;
+        margin-left: 2vw;
+        margin-top: 2vw;
+        background-image: url("../img/Frame 102.svg");
+        background-size: 200%;
+        background-repeat: repeat-x;
+        animation: colori 2s steps(1) infinite, rotating 2s steps(20) infinite;
+    }
+
+    .thirdflo{
+        width:80vw;
+        background-image: url("../img/Frame 99.svg");
+        background-size: 200%;
+        background-repeat: repeat-x;
+        animation: colori 2s steps(1) infinite, scale 1.8s steps(10) 0s infinite;
+    }
+
+    .fourdflo{ display: none;}
+
+    /* "цв" */
+    .firstbigletters {
+        width: 100vw;
+        height: 20vw;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        top: 45vw;
+    }
+
+    .firstletter h1{
+        position: relative;
+        font-size: 35vw;
+        color: rgb(255, 255, 255);
+        left: 23%;
+        animation: sdvig 1.2s steps(8) infinite;
+    }
+
+    @keyframes sdvig{
+        0%{transform: translate( 0px,0);}
+        25%{transform: translate( 0px,40px);}
+        50%{transform: translate( 0px,0px);}
+        75%{transform: translate( 0px,-40px);}
+        100%{transform: translate( 0px,0);}
+    }
+
+    .secondletter h1{
+        position: relative;
+        font-size: 35vw;
+        color: rgb(255, 255, 255);
+        right: 38%;
+        animation: sdvag 1.3s steps(10) infinite;
+    }
+
+    @keyframes sdvag{
+        0%{transform: translate( 0px,0px);}
+        25%{transform: translate( 0px,50px);}
+        40%{transform: translate(0px,0px);}
+        50%{transform: translate( 0px, -50px);}
+        100%{transform: translate( 0px,0px);}
+    }
+
+    /* центральный цветок */
+    .bigflo{
+        width: 40vw;
+        position: absolute;
+        left: 30vw;
+        top: 35vw;
+        animation: animations 2s steps(20) 0s infinite;
+    }
+
+    .imgbig{
+        width: 40vw;
+    }
+
+    /* второй блок цветов */
+    .secondblokflo{
+        width: 87vw;
+        height: 35vw;
+        position: absolute;
+        display: flex;
+        justify-content: space-between; 
+        top: 80vw;
+        left: 6%;
+    }
+
+    .fifthflo{
+        width:30vw;
+        margin-left: 1vw;
+        background-image: url("../img/Frame 107.svg");
+        background-size: 200%;
+        background-repeat: repeat-x;
+        animation: colori 1.5s steps(1) infinite, scale 1.8s steps(10) 0s infinite;
+    }
+
+    .dopblok{
+        width:30vw;
+        background-image: url("../img/Frame 123.svg");
+        background-size: 200%;
+        background-repeat: repeat-x;
+        animation: flor 2s steps(1) infinite, topi 2s steps(10) infinite;
+    }
+
+    .sixthflo{
+        width:30vw;
+        background-image: url("../img/Frame 109.svg");
+        background-size: 200%;
+        background-repeat: repeat-x;
+        animation: colori 2s steps(1) infinite, scale 1.8s steps(10) 0s infinite;
+    
+    }
+
+    /* "ет" */
+.secondbigletters{
+    width: 80vw;
+    height: 50vw;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 110vw;
+    left: 1vw;
+}
+.thirthletter h1{
+    position: relative;
+    margin-left: 3vw;
+    font-size: 35vw;
+    color: rgb(255, 255, 255);
+    left: 4vw;
+    animation: sdvogi 1.5s steps(8) infinite;
+}
+
+@keyframes sdvogi{
+    0%{transform: translate( 0px,0);}
+    25%{transform: translate( -80px,px);}
+    50%{transform: translate(0px,0px);}
+    75%{transform: translate(75px,0px);}
+    100%{transform: translate( 0px,0px);}
+
+}
+
+.fourthletter h1{
+    position: relative;
+    margin-right: 1vw;
+    font-size: 35vw;
+    color: rgb(255, 255, 255);
+    left: 10vw;
+    animation: sdvig2 1.5s steps(8) infinite;
+}
+
+@keyframes sdvig2{
+    0%{transform: translate( 0px,0px);}
+    25%{transform: translate( 25px,0px);}
+    50%{transform: translate( 0px,0px);}
+    75%{transform: translate( -25px,0px);}
+    100%{transform: translate( 0px,0px);}
+}
+
+    /* третий блок цветов */
+    .thirdblokflo{
+        width: 63vw;
+        height: 30vw;
+        position: absolute;
+        display: flex;
+        justify-content: space-around; 
+        top: 10vw;
+        right: 17vw;
+    }
+
+    .seventhflo{
+        display: none;
+    }
+
+    .eighthflo{
+        width:30vw;
+        height: 40vw;
+        margin-top: 105vw;
+        background-image: url("../img/Frame 111.svg");
+        background-size: 200%;
+        background-repeat: repeat-x;
+        animation: flor 2s steps(1) infinite, topi 2s steps(10) infinite;
+    }
+
+    .newblok{display: none;}
+
+    /* четвертый блок цветов */
+.fourthblokflo{
+    width: 91vw;
+    height: 30vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between; 
+    left: 2vw;
+    top: 109vw;
+}
+
+.firstflotwo{
+    width:80vw;
+    height: 30vw;
+    margin-left: 5vw;
+    background-image: url("../img/Frame 114.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite, scale 1.8s steps(10) 0s infinite;
+}
+
+.secondflotwo{
+    width:75vw;
+    background-image: url("../img/Frame 117 (1).svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite,rotatin 2s steps(20) infinite;
+}
+
+.thirdflotwo{
+    width:75vw;
+    margin-left: 2vw;
+    background-image: url("../img/Frame 120.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite,scale 1.8s steps(10) 0s infinite;
+}
+
+.fourdflotwo{
+    display: none;
+}
+
+/* "ле" */
+.thirthbigletters{
+    width: 90vw;
+    height: 25vw;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 107vw;
+    left: 1vw;
+}
+
+.firstlettertwo h1{
+    position: relative;
+    font-size: 30vw;
+    color: rgb(255, 255, 255);
+    margin-right: 45vw;
+    animation: sdvig3 1.2s steps(8) infinite;
+}
+
+@keyframes sdvig3{
+    0%{transform: translate( 0px,0px);}
+    25%{transform: translate( -20px,0px);}
+    50%{transform: translate( 0px,0px);}
+    75%{transform: translate( 20px,0px);}
+    100%{transform: translate( 0px,0px);}
+}
+
+.secondlettertwo{
+    position: relative;
+    font-size: 30vw;
+    color: rgb(255, 255, 255);
+    right: 10%;
+    animation: sdvig4 1.2s steps(8) infinite;
+}
+
+@keyframes sdvig4{
+    0%{transform: translate( 0px,0px);}
+    50%{transform: translate( 25px,0px);}
+    100%{transform: translate( 0px,0px);}
+}
+
+/* пятый блок цветов */
+.fiveblokflo{
+    width: 80vw;
+    position: relative;
+    display: flex;
+    justify-content: space-around; 
+    top: 84vw;
+    left: 18vw;
+}
+
+.thirthflotwo{
+    position: relative;
+    left: 11vw;
+    bottom:3vw;
+    animation: rotate 2s linear infinite;
+}
+
+.imgflospesial{
+    width: 30vw;
+}
+
+.fourthflotwo{
+    width:8vw;
+    height: 24vw;
+    margin-left: 20vw;
+    /* margin-left: 10vw; */
+    background-image: url("../img/Frame 43 (1).svg");
+    background-size: 1000%;
+    border-radius: 40px;
+    background-repeat: repeat-x;
+    animation: flori 5s steps(3)  infinite;
+} 
+
+/* шестой блок цветов */
+.sixblokflo{
+    width: 90vw;
+    height: 30vw;
+    position: relative;
+    display: flex;
+    justify-content: space-around; 
+    right: 9%;
+    top: 80vw;
+}
+
+.fiveflotwo{
+    width:8vw;
+    height: 24vw;
+    margin-right: 3vw;
+    background-image: url("../img/Frame 43 (1).svg");
+    background-size: 1000%;
+    border-radius: 40px;
+    background-repeat: repeat-x;
+    animation: flori 5s steps(3)  infinite;
+}
+
+.sixflotwo{
+    width:28vw;
+    height: 30vw;
+    margin-right: 8vw; 
+    background-image: url("../img/Frame 140.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite,scale 1.8s steps(10) 0s infinite;
+}
+
+.imgflospesial2{
+    width: 22vw;
+}
+
+/* "та" */
+.fourthbigletters{
+    width: 80vw;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 51vw;
+}
+
+.firstletterthree{
+    position: relative;
+    font-size: 30vw;
+    margin-left: 4vw;
+    color: rgb(255, 255, 255);
+    animation: sdvig5 1.2s steps(8) infinite;
+}
+
+@keyframes sdvig5{
+    0%{transform: translate( 0px,0px);}
+    50%{transform: translate( -15px,0px);}
+    100%{transform: translate( 0px,0px);}
+}
+
+.secondletterthree{
+    position: relative;
+    font-size: 30vw;
+    margin-left: 40vw;
+    color: rgb(255, 255, 255);
+    animation: sdvig6 1.2s steps(8) infinite;
+}
+
+@keyframes sdvig6{
+    0%{transform: translate( 0px,0px);}
+    50%{transform: translate( -55px,0px);}
+    100%{transform: translate( 0px,0px);}
+}
+
+/* полоса */
+.polosaflotheater img{
+    width: 150vw;
+}
+
+.polosaflotheater{
+    width: 90vw;
+    margin: auto;
+    position: relative; 
+    bottom: 36vw;
+    overflow: hidden;
+    animation: theater 5s linear infinite;
+}
+
+@keyframes theater{
+    from{ text-indent: -100%;}
+    to{ text-indent: 100%;}
+}
+/* седьмой блок цветов */
+.sevenblokflo{
+    width: 95vw;
+    height: 33vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    left: 5vw;
+    top: 53vw;
+   
+}
+
+.firstflothree{
+    width:30vw;
+    margin-left: 2vw;
+    margin-top: 1vw;
+    background-image: url("../img/Frame 146.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite, rotatee 2s steps(10) infinite;
+}
+
+.secondflothree{
+    width:30vw;
+    margin-left: 2vw;
+    background-image: url("../img/Frame 149 (1).svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite,scale 1.8s steps(10) 0s infinite;
+}
+
+.thirdflothree{
+    display: none
+};
+
+.fourdflothree{
+    width:30vw;
+    margin-right: 6vw;
+    background-image: url("../img/Frame 151.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite,scale 1.8s steps(10) 0s infinite;
+}
+
+/* восьмой блок цветов */
+.eightblokflo{
+    width: 90vw;
+    height: 50vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    left: 4vw;
+    top: 50vw;
+}
+
+.firstflofour{
+    width:80vw;
+    background-image: url("../img/Frame 153.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite, topbot 2s steps(10) infinite;
+}
+
+.secondflofour{
+    width:80vw;
+    margin-right: 1vw;
+    background-image: url("../img/Frame 155.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite,rotating 2s linear infinite;
+}
+
+.thirdflofour{
+    display: none;
+}
+
+.dopflowers{
+    width: 90vw;
+    height: 50vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    left: 5vw;
+    top: 35vw;
+}
+
+.dopflo1{
+    width:33vw;
+    margin-left: 3vw;
+    background-image: url("../img/Frame 105.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: colori 2s steps(1) infinite, rotatin 2s steps(20) infinite;
+}
+
+.dopflo2{
+    position: relative;
+    top: 3vw;
+    right: 2vw;
+    height: 30vw;
+    animation: scaling 1.5s steps(1) 0s infinite,rotate 2s linear infinite;
+}
+/* дата и время */
+.date{
+    position: absolute;
+    height: 20vw;
+    width: 30vw;
+    flex-direction: column;
+    left: 41vw;
+    top: 314vw;
+}
+
+.date h2{
+    font-size: 6.5vw;
+    color: rgb(255, 255, 255);
+}
+
+/* девятый блок цветов */
+.nineblokflo{
+    width: 90vw;
+    height: 52vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    left: 4vw;
+    bottom: 85vw;
+    
+}
+
+.firstflofive{
+    display: none;
+}
+
+.secondflofive{
+    display: none;
+}
+
+.thirdflofive{
+    width:70vw;
+    margin-left: 2vw;
+    background-image: url("../img/Frame 161.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite, scale 1.8s steps(10) 0s infinite;
+}
+
+.fourdflofive{
+    width:65vw;
+    margin-left: 2vw;
+    margin-bottom: 7vw;
+    background-image: url("../img/Frame 165.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite, topi 2s steps(10) infinite;
+}
+
+.dopflowers2{
+    width: 90vw;
+    height: 50vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 60vw;
+    left: 6vw;
+}
+
+.dopflo5{
+    width:28vw;
+    margin-right: 2vw;
+    background-image: url("../img/Frame 44 (1).svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite,rotatee 2s steps(10) infinite;
+}
+
+.dopflo4{
+    width:25vw;
+    margin-top: 5vw;
+    background-image: url("../img/Frame 45 (2).svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite, rotatin 2s linear infinite;
+}
+
+.dopflo3{
+    width:29vw;
+    background-image: url("../img/Frame 46.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite,scale 1.8s steps(10) 0s infinite;
+}
+
+.dopflowers3{
+    width: 90vw;
+    height: 52vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    left: 4vw;
+    top: 43vw;
+}
+
+.dopflo6{
+    width:68vw;
+    margin-left: 2vw;
+    background-image: url("../img/Frame 164 (1).svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite, rotatin 2s steps(20) infinite;
+}
+
+.dopflo7{
+    width:65vw;
+    margin-left: 2vw;
+    margin-bottom: 7vw;
+    background-image: url("../img/Frame 159.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite, topi 2s steps(10) infinite;
+
+}
+
+.finish1{display: none;}
+.finish2{display: none;}
+
+/* логотип */
+.logo{
+    width: 20vw;
+    height: 15vw;
+    position: relative;
+    left: 74vw;
+    bottom: 19.5vw; 
+}
+
+.logo img{
+    width: 23vw;
+}
+
+/* инфа */
+.info{
+    position: relative;
+    left: 7%;
+    font-family: Inter;
+    bottom: 28.7vw; 
+    width: 25.8vw;
+}
+
+p{
+    font-size: 3vw;
+    color: rgb(255, 255, 255);
+}
+
+.info2{
+    position: relative;
+    left: 37%;
+    font-family: Inter;
+    bottom: 31.7vw;
+    width: 20vw;
+}
+
+.info3{
+    position: relative;
+    bottom: 34.8vw;
+    left: 58%;
+    font-family: Inter;
+    width: 20vw;
+}
+}
+
+
+
+
+/* iphone */
+@media screen and (max-width: 414px) { 
+    body{
+        width: 100vw;
+        height: 100%;
+        background-image: url("../img/Frame 43.png");
+        background-size: 200%;
+        font-family: 'Nunito', 'Inter';
+        animation: colori 1s steps(1) infinite;
+    }
+
+    .firstblokflo{
+        width: 91vw;
+        height: 45vw;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        top: 6.3vw;
+        left: 1.6%;
+    }
+    
+    .firstflo{
+        width:80vw;
+        margin-left: 5vw;
+        background-image: url("../img/Frame 96.svg");
+        background-size: 200%;
+        background-repeat: repeat-x;
+        animation: colori 2s steps(1) infinite, scale 1.8s steps(10) 0s infinite;
+    }
+
+    .secondflo{
+        display: none;
+    }
+
+    .thirdflo{
+        width:80vw;
+        background-image: url("../img/Frame 99.svg");
+        background-size: 200%;
+        background-repeat: repeat-x;
+        animation: colori 2s steps(1) infinite, scale 1.8s steps(10) 0s infinite;
+    }
+
+    .fourdflo{ display: none;}
+
+    /* "цв" */
+    .firstbigletters {
+        width: 100vw;
+        height: 20vw;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        top: 45vw;
+    }
+
+    .firstletter h1{
+        position: relative;
+        font-size: 30vw;
+        color: rgb(255, 255, 255);
+        left: 9vw;
+        animation: sdvigs 1.2s steps(8) infinite;
+    }
+
+    @keyframes sdvigs{
+        0%{transform: translate( 0px,0);}
+        25%{transform: translate( 0px,-5px);}
+        50%{transform: translate( 0px,0px);}
+        75%{transform: translate( 0px,25px);}
+        100%{transform: translate( 0px,0);}
+    }
+
+    .secondletter h1{
+        position: relative;
+        font-size: 30vw;
+        top: 33vw;
+        right: 10vw;
+        color: rgb(255, 255, 255);
+        animation: sdvag 1.3s steps(10) infinite;
+    }
+
+    @keyframes sdvag{
+        0%{transform: translate( 0px,0px);}
+        25%{transform: translate( 0px,-12px);}
+        40%{transform: translate(0px,0px);}
+        50%{transform: translate( 0px,25px);}
+        100%{transform: translate( 0px,0px);}
+    }
+
+    .oneflo{
+        position: relative;
+        width:25vw;
+        height: 40vw;
+        left: 34vw;
+        top: 5vw;
+        background-image: url("../img/Frame 102.svg");
+        background-size: 200%;
+        background-repeat: repeat-x;
+        animation: colori 2s steps(1) infinite, rotating 2s steps(20) infinite;
+    }
+
+    .twoflo{
+        position: relative;
+        width:28vw;
+        height: 40vw;
+        bottom: 35vw;
+        left: 62.5vw;
+        background-image: url("../img/Frame 105.svg");
+        background-size: 200%;
+        background-repeat: repeat-x;
+        animation: colori 2s steps(1) infinite, rotatin 2s steps(20) infinite;
+    }
+
+    /* центральный цветок */
+    .bigflo{
+        width: 60vw;
+        position: absolute;
+        left: 20vw;
+        top: 109vw;
+        animation: animations 2s steps(20) 0s infinite;
+    }
+
+    .imgbig{
+        width: 60vw;
+    }
+
+    /* второй блок цветов */
+    .secondblokflo{
+        width: 87vw;
+        height: 35vw;
+        position: absolute;
+        display: flex;
+        justify-content: space-between; 
+        top: 82vw;
+        left: 6%;
+    }
+
+    .fifthflo{
+        width:30vw;
+        margin-left: 1vw;
+        background-image: url("../img/Frame 107.svg");
+        background-size: 200%;
+        background-repeat: repeat-x;
+        animation: colori 1.5s steps(1) infinite, scale 1.8s steps(10) 0s infinite;
+    }   
+
+
+    .sixthflo{
+        width:30vw;
+        margin-right: 30vw;
+        background-image: url("../img/Frame 109.svg");
+        background-size: 200%;
+        background-repeat: repeat-x;
+        animation: colori 2s steps(1) infinite, scale 1.8s steps(10) 0s infinite;
+    }
+
+    .threeflo{
+        position: absolute;
+        width:30vw;
+        height: 35vw;
+        margin-left: 61vw;
+        margin-top: 39vw;
+        background-image: url("../img/Frame 102.svg");
+        background-size: 200%;
+        background-repeat: repeat-x;
+        animation: colori 2s steps(1) infinite, rotating 2s steps(20) infinite;
+    }
+
+    .fourflo{
+        position: absolute;
+        width:30vw;
+        height: 30vw;
+        margin-left: 29vw;
+        margin-top: 43vw;
+        background-image: url("../img/Frame 111.svg");
+        background-size: 200%;
+        background-repeat: repeat-x;
+        animation: flor 2s steps(1) infinite, topi 2s steps(10) infinite;
+    }
+   
+
+    .dopblok{
+        display: none;
+    }
+
+    /* "ет" */
+.secondbigletters{
+    width: 80vw;
+    height: 20vw;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 165vw;
+    left: 1vw;
+}
+.thirthletter h1{
+    position: relative;
+    margin-left: 3vw;
+    font-size: 30vw;
+    color: rgb(255, 255, 255);
+    left: 4vw;
+    animation: sdvog 1.5s steps(8) infinite;
+}
+
+@keyframes sdvog{
+    0%{transform: translate( 0px,0);}
+    25%{transform: translate( 0px,-10px);}
+    50%{transform: translate( 0px,0px);}
+    75%{transform: translate( 0px,10px);}
+    100%{transform: translate( 0px,0px);}
+
+}
+
+.fourthletter h1{
+    position: relative;
+    margin-right: 9vw;
+    margin-top: 35vw;
+    font-size: 30vw;
+    color: rgb(255, 255, 255);
+    left: 15vw;
+    animation: sdvig2 1.5s steps(8) infinite;
+}
+
+@keyframes sdvig2{
+    0%{transform: translate( 0px,0px);}
+    25%{transform: translate( 10px,0px);}
+    50%{transform: translate( 0px,0px);}
+    75%{transform: translate( -10px,0px);}
+    100%{transform: translate( 0px,0px);}
+}
+
+    /* третий блок цветов */
+    .thirdblokflo{
+        width: 63vw;
+        height: 30vw;
+        position: absolute;
+        display: flex;
+        justify-content: space-around; 
+        top: 200vw;
+        right: 17vw;
+    }
+
+    .seventhflo{
+        display: none;
+    }
+
+    .eighthflo{
+        display: none;
+    }
+
+    /* четвертый блок цветов */
+.fourthblokflo{
+    width: 60vw;
+    height: 30vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between; 
+    left: 5vw;
+    top: 75vw;
+}
+
+.firstflotwo{
+    width:80vw;
+    height: 30vw;
+    margin-left: 5vw;
+    background-image: url("../img/Frame 114.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite, scale 1.8s steps(10) 0s infinite;
+}
+
+.secondflotwo{
+    width:75vw;
+    height: 30vw;
+    background-image: url("../img/Frame 117 (1).svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite,rotatin 2s steps(20) infinite;
+}
+
+.thirdflotwo{
+    display: none;
+}
+
+.fourdflotwo{
+    display: none;
+}
+
+/* "ле" */
+.thirthbigletters{
+    width: 90vw;
+    height: 25vw;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 75vw;
+    left: 1vw;
+}
+
+.firstlettertwo h1{
+    position: relative;
+    font-size: 30vw;
+    color: rgb(255, 255, 255);
+    margin-right: 18vw;
+    animation: sdvig3 1.2s steps(8) infinite;
+}
+
+@keyframes sdvig3{
+    0%{transform: translate( 0px,0px);}
+    25%{transform: translate( -20px,0px);}
+    50%{transform: translate( 0px,0px);}
+    75%{transform: translate( 20px,0px);}
+    100%{transform: translate( 0px,0px);}
+}
+
+.secondlettertwo{
+    position: relative;
+    top: 30vw;
+    font-size: 30vw;
+    color: rgb(255, 255, 255);
+    right: 1%;
+    animation: sdvig4 1.2s steps(8) infinite;
+}
+
+@keyframes sdvig4{
+    0%{transform: translate( 0px,0px);}
+    50%{transform: translate( 28px,0px);}
+    100%{transform: translate( 0px,0px);}
+}
+
+/* пятый блок цветов */
+.fiveblokflo{
+    width: 80vw;
+    position: relative;
+    display: flex;
+    justify-content: space-around; 
+    top: 49vw;
+    left: 8vw;
+}
+
+.thirthflotwo{
+    position: relative;
+    left: 29vw;
+    top:31vw;
+    animation: rotate 2s linear infinite;
+}
+
+.imgflospesial{
+    width: 30vw;
+}
+
+.fourthflotwo{
+    width:120vw;
+    height: 30vw;
+    margin-left: 1vw;
+    background-image: url("../img/Frame 44 (2).svg");
+    background-size:600%;
+    border-radius: 25px;
+    background-repeat: repeat-x;
+    animation: flori 5s steps(3)  infinite;
+} 
+
+.dopflowflow{
+    position: relative;
+    width:33vw;
+    height: 33vw;
+    top: 48vw;
+    background-image: url("../img/Frame 96.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: colori 2s steps(1) infinite, scale 1.8s steps(10) 0s infinite;
+}
+
+/* шестой блок цветов */
+.sixblokflo{
+    width: 74vw;
+    height: 90vw;
+    position: relative;
+    flex-direction: column;
+    top: 15vw;
+    left: 20vw;
+}
+
+.fiveflotwo{
+    width:50vw;
+    height: 30vw;
+    margin-left: 18vw;
+    background-image: url("../img/Frame 43 (1).svg");
+    background-size: 1000%;
+    border-radius: 25px;
+    background-repeat: repeat-x;
+    animation: flori 5s steps(3)  infinite;
+}
+
+.sixflotwo{
+    display: none;
+}
+
+.imgflospesial2{
+    width: 22vw;
+}
+
+/* "та" */
+
+.fourthbigletters{
+    display: non;
+}
+.firstletterthree{
+    position: absolute;
+    font-size: 30vw;
+    left: 2vw;
+    bottom: 94vw;
+    color: rgb(255, 255, 255);
+    animation: sdvig5 1.2s steps(8) infinite;
+}
+
+@keyframes sdvig5{
+    0%{transform: translate( 0px,0px);}
+    50%{transform: translate( 5px,0px);}
+    100%{transform: translate( 0px,0px);}
+}
+
+.secondletterthree{
+    position: relative;
+    font-size: 30vw;
+    left: 10vw;
+    bottom: 67vw;
+    color: rgb(255, 255, 255);
+    animation: sdvig6 1.2s steps(8) infinite;
+}
+
+@keyframes sdvig6{
+    0%{transform: translate( 0px,0px);}
+    50%{transform: translate( -30px,0px);}
+    100%{transform: translate( 0px,0px);}
+}
+
+.doppblok{
+    position: relative;
+    bottom: 44vw;
+    width:25vw;
+    height: 30vw;
+    left: 11vw;
+    background-image: url("../img/Frame 120.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite,rotating 2s linear infinite;
+}
+
+.doppblok2{
+    position: relative;
+    width:25vw;
+    height: 30vw;
+    bottom: 75vw;
+    left: 38vw;
+    background-image: url("../img/Frame 44 (1).svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite,rotatee 2s steps(10) infinite;
+}
+
+/* полоса */
+.polosaflotheater img{
+    width: 150vw;
+}
+
+.polosaflotheater{
+    width: 90vw;
+    margin: auto;
+    position: relative; 
+    bottom: 8vw;
+    overflow: hidden;
+    animation: theater 5s linear infinite;
+}
+
+@keyframes theater{
+    from{ text-indent: -100%;}
+    to{ text-indent: 100%;}
+}
+/* седьмой блок цветов */
+.sevenblokflo{
+    width: 85vw;
+    height: 80vw;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 8vw;
+    top: 388vw;
+    
+}
+
+.firstflothree{
+   display: none;
+}
+
+.secondflothree{
+    width:80vw;
+    margin-left: 2vw;
+    background-image: url("../img/Frame 149 (1).svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite,scale 1.8s steps(10) 0s infinite;
+}
+
+.thirdflothree{
+    display: none;
+}
+
+.fourdflothree{
+    display: none;
+}
+
+/* восьмой блок цветов */
+.eightblokflo{
+    width: 90vw;
+    height: 50vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    left: 4vw;
+    top: 80vw;
+}
+
+.firstflofour{
+    width:80vw;
+    background-image: url("../img/Frame 153.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite, topbot 2s steps(10) infinite;
+}
+
+.secondflofour{
+    width:80vw;
+    margin-right: 1vw;
+    background-image: url("../img/Frame 155.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite,rotating 2s linear infinite;
+}
+
+.thirdflofour{
+    display: none;
+}
+
+.newblok{
+    width: 91vw;
+    height: 32vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    bottom: 7vw;
+    left: 8%;
+}
+
+.onesflo{
+    width:30vw;
+    margin-left: 2vw;
+    margin-top: 1vw;
+    background-image: url("../img/Frame 146.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite, rotatee 2s steps(10) infinite;
+}
+
+.onesflo2{
+    position: relative;
+    bottom:1vw;
+    animation: rotate 2s linear infinite;
+}
+
+.onesflo3{
+    width:30vw;
+    margin-right: 6vw;
+    background-image: url("../img/Frame 151.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite,scale 1.8s steps(10) 0s infinite;
+}
+
+
+.dopflowers{
+    width: 90vw;
+    height: 50vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    left: 5vw;
+    top: 10vw;
+}
+
+.dopflo1{
+    display: none;
+}
+
+.dopflo2{
+    display: none;
+}
+/* дата и время */
+.date{
+    position: absolute;
+    height: 20vw;
+    width: 30vw;
+    flex-direction: column;
+    left: 64vw;
+    top: 570vw;
+}
+
+.date h2{
+    font-size: 6.5vw;
+    color: rgb(255, 255, 255);
+}
+
+/* девятый блок цветов */
+.nineblokflo{
+    width: 90vw;
+    height: 52vw;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 5.5vw;
+    bottom:467vw;
+    
+}
+
+.firstflofive{
+    display: none;
+}
+
+.secondflofive{
+    display: none;
+}
+
+.newflo{
+    position: relative;
+    width:50vw;
+    height: 58vw;
+    left: 10vw;
+    bottom: 15vw;
+    background-image: url("../img/Frame 46 (1).svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite, scale 1.8s steps(10) 0s infinite;
+}
+
+.newflo2{
+    position: relative;
+    width:45vw;
+    height: 50vw;
+    margin-left: 7vw;
+    bottom: 22vw;
+    background-image: url("../img/Frame 161.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite, scale 1.8s steps(10) 0s infinite;
+}
+
+.newflo3{
+    position: relative;
+    width:40vw;
+    height: 50vw;
+    left: 50vw;
+    bottom: 70vw;
+    background-image: url("../img/Frame 165.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite, topi 2s steps(10) infinite;
+}
+
+.thirdflofive{
+    width:65vw;
+    background-image: url("../img/Frame 109.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite, scale 1.8s steps(10) 0s infinite;
+}
+
+.fourdflofive{
+    width:65vw;
+    margin-right: 5vw;
+    margin-bottom: 7vw;
+    background-image: url("../img/Frame 140.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite, topi 2s steps(10) infinite;
+}
+
+.dopflowers2{
+    width: 90vw;
+    height: 50vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 60vw;
+    left: 6vw;
+}
+
+.dopflo5{
+    display: none;
+}
+
+.dopflo4{
+    display: none;
+}
+
+.dopflo3{
+   display: none;
+}
+
+.dopflowers3{
+    width: 74vw;
+    height: 90vw;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 15vw;
+    top: 645vw;
+}
+
+.dopflo6{
+    display: none;
+}
+
+.dopflo7{
+    width:65vw;
+    margin-left: 2vw;
+    margin-bottom: 7vw;
+    background-image: url("../img/Frame 159.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite, topi 2s steps(10) infinite;
+
+}
+
+.flowers{
+    width: 91vw;
+    height: 50vw;
+    position: absolute;
+    display: flex;
+    justify-content: space-between; 
+    left: 1vw;
+    top: 710vw;
+}
+
+.fl1{
+    width:40vw;
+    height: 50vw;
+    margin-left: 5vw;
+    background-image: url("../img/Frame 114.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite, scale 1.8s steps(10) 0s infinite;
+}
+
+.fl2{
+    width:40vw;
+    height: 50vw;
+    background-image: url("../img/Frame 117 (1).svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite,rotatin 2s steps(20) infinite;
+}
+
+.finish1{
+    position: relative;
+    width:80vw;
+    height: 80vw;
+    left: 10vw;
+    bottom: 24vw;
+    background-image: url("../img/Frame 96.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: colori 2s steps(1) infinite, scale 1.8s steps(10) 0s infinite;
+}
+
+.finish2{
+    width: 91vw;
+    height: 32vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    bottom: 28vw;
+    left: 8%;
+}
+
+.f1{
+    width:30vw;
+    margin-left: 2vw;
+    margin-top: 1vw;
+    background-image: url("../img/Frame 146.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite, rotatee 2s steps(10) infinite;
+}
+
+.f2{
+    position: relative;
+    bottom:1vw;
+    animation: rotate 2s linear infinite;
+}
+
+.f3{
+    width:25vw;
+    margin-right: 6vw;
+    background-image: url("../img/Frame 151.svg");
+    background-size: 200%;
+    background-repeat: repeat-x;
+    animation: flor 2s steps(1) infinite,scale 1.8s steps(10) 0s infinite;
+}
+
+
+/* логотип */
+.logo{
+    width: 20vw;
+    height: 15vw;
+    position: relative;
+    left: 70vw;
+    bottom: 35vw;
+}
+
+.logo img{
+    width: 23vw;
+}
+
+/* инфа */
+.info{
+    position: absolute;
+    left: 10%;
+    font-family: Inter;
+    width: 25.8vw;
+    bottom: 200vw;
+}
+
+p{
+    font-size: 2.5vw;
+    color: rgb(255, 255, 255);
+}
+
+.info2{
+    position: relative;
+    left: 35%;
+    font-family: Inter;
+    width: 20vw;
+    bottom: 44.5vw;
+}
+
+.info3{
+    position: relative;
+    bottom: 46.5vw;
+    left: 53%;
+    font-family: Inter;
+    width: 20vw;
+}
+}
